@@ -9,4 +9,16 @@ export class TodoList {
     this.idCounter = 0;
     this.todoList = [];
   }
+
+  public addItem = () => {
+
+  }
+
+  public deleteItem = () => {
+
+  }
+
+  public viewList = () => {
+    
+  }
 }
