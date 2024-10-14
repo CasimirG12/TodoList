@@ -3,12 +3,13 @@ import { TodoItem } from "./models";
 const input = require('prompt-sync')({sigint: true});
 
 export class TodoList {
-  private idCounter: number;
-  private todoList: TodoItem[];
+  idCounter
+  todoList
   constructor () {
     this.idCounter = 0;
     this.todoList = [];
   }
+
 
   public addItem = () => {
 
@@ -18,7 +19,6 @@ export class TodoList {
 
   }
 
-  public viewList = () => {
-    
+  public viewList = () => {  
   }
 }
